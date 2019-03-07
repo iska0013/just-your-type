@@ -21,6 +21,23 @@
     background-color: inherit;
   }
 
+  p {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  article {
+    width: 50em;
+    background-color: inherit;
+  }
+
+  p {
+    display: block;
+  }
+
 }
 
 cite {
