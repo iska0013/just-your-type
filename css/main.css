@@ -11,14 +11,57 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  font-family: "PT Serif", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+  background-color: black;
+color: #fff;
 }
 
 body {
   margin: 0;
+}
+
+
+.text-red {
+  color: red;
+}
+
+.script-font {
+font-family: 'Srisakdi', cursive;
+}
+.p {
+  color:#fff;
+}
+.sans-font {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@media only screen and (min-width: 38em) {
+
+  article {
+    width: 50em;
+    background-color: inherit;
+  }
+}
+
+article {
+
+
+}
+
+blockquote {
+
+}
+
+cite {
+  text-align: center;
+}
+
+@media only screen and (min-width: 90em) {
+
+  cite {
+    text-align: right;
+  }
 }
